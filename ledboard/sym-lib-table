@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ledboard)(type Legacy)(uri ${KIPRJMOD}/ledboard.lib)(options "")(descr ""))
+  (lib (name ledboard-rescue)(type Legacy)(uri ${KIPRJMOD}/ledboard-rescue.lib)(options "")(descr ""))
 )
