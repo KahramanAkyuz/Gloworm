@@ -1111,35 +1111,11 @@ F 4 "UPJ1A181MED1TD" H 10100 2100 50  0001 C CNN "P/N"
 	1    10100 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L ledboard-rescue:RASPBERRYPI4_4GB-RASPBERRYPI4_4GB U4
-U 1 1 5F62C8C9
-P 5150 6200
-F 0 "U4" V 5054 7230 50  0000 L CNN
-F 1 "RASPBERRYPI4_4GB" V 5145 7230 50  0000 L CNN
-F 2 "KiCad raspberry pi:MODULE_RASPBERRYPI4_4GB" H 5150 6200 50  0001 L BNN
-F 3 "Manufacturer Recommendations" H 5150 6200 50  0001 L BNN
-F 4 "18mm" H 5150 6200 50  0001 L BNN "Field4"
-F 5 "Raspberry Pi" H 5150 6200 50  0001 L BNN "Field5"
-F 6 "1.0" H 5150 6200 50  0001 L BNN "Field6"
-	1    5150 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 5600 4050 5600
-Text Label 3850 5600 0    50   ~ 0
+Text Label 5200 5650 2    50   ~ 0
 USR_LED_A
-Wire Wire Line
-	6150 6100 6550 6100
-Text Label 6550 6100 0    50   ~ 0
-USR_LED_B
-Wire Wire Line
-	6150 6400 6550 6400
-Text Label 6550 6400 0    50   ~ 0
+Text Label 5200 6950 2    50   ~ 0
 CTRL_R
-Wire Wire Line
-	4050 6000 3600 6000
-Text Label 3600 6000 0    50   ~ 0
+Text Label 5700 5850 0    50   ~ 0
 CTRL_L
 $Comp
 L Connector_Generic:Conn_01x02 J4
@@ -1174,10 +1150,6 @@ Wire Wire Line
 Text Label 2650 6000 0    50   ~ 0
 PWM_LED
 Wire Wire Line
-	6150 6200 6450 6200
-Text Label 6450 6200 0    50   ~ 0
-PWM_LED
-Wire Wire Line
 	2300 5800 2350 5800
 Wire Wire Line
 	2350 5800 2350 5700
@@ -1196,9 +1168,7 @@ F 3 "~" H 2450 5750 50  0001 C CNN
 	1    2450 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 6100 4050 6100
-Text Label 3750 6100 0    50   ~ 0
+Text Label 5200 6050 2    50   ~ 0
 FAN_PIN
 Wire Wire Line
 	7550 1950 7550 2400
@@ -1332,17 +1302,6 @@ Connection ~ 7550 1650
 Wire Wire Line
 	7550 1650 7550 1700
 $Comp
-L power:+5V #PWR0101
-U 1 1 5F9E449F
-P 6150 5300
-F 0 "#PWR0101" H 6150 5150 50  0001 C CNN
-F 1 "+5V" V 6165 5428 50  0000 L CNN
-F 2 "" H 6150 5300 50  0001 C CNN
-F 3 "" H 6150 5300 50  0001 C CNN
-	1    6150 5300
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+12V #PWR0102
 U 1 1 5F9E5194
 P 10450 3600
@@ -1423,13 +1382,13 @@ $EndComp
 $Comp
 L pspice:0 #GND0108
 U 1 1 5FA2B309
-P 6150 7500
-F 0 "#GND0108" H 6150 7400 50  0001 C CNN
-F 1 "0" H 6150 7589 50  0000 C CNN
-F 2 "" H 6150 7500 50  0001 C CNN
-F 3 "~" H 6150 7500 50  0001 C CNN
-	1    6150 7500
-	1    0    0    -1  
+P 5200 6550
+F 0 "#GND0108" H 5200 6450 50  0001 C CNN
+F 1 "0" H 5200 6639 50  0000 C CNN
+F 2 "" H 5200 6550 50  0001 C CNN
+F 3 "~" H 5200 6550 50  0001 C CNN
+	1    5200 6550
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0110
@@ -1441,5 +1400,31 @@ F 2 "" H 10550 1950 50  0001 C CNN
 F 3 "" H 10550 1950 50  0001 C CNN
 	1    10550 1950
 	-1   0    0    1   
+$EndComp
+Text Label 5200 6850 2    50   ~ 0
+PWM_LED
+Text Label 5200 6750 2    50   ~ 0
+USR_LED_B
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F9E449F
+P 5700 5350
+F 0 "#PWR0101" H 5700 5200 50  0001 C CNN
+F 1 "+5V" V 5715 5478 50  0000 L CNN
+F 2 "" H 5700 5350 50  0001 C CNN
+F 3 "" H 5700 5350 50  0001 C CNN
+	1    5700 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J7
+U 1 1 5FD76DDB
+P 5400 6250
+F 0 "J7" H 5450 7367 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5450 7276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5400 6250 50  0001 C CNN
+F 3 "~" H 5400 6250 50  0001 C CNN
+	1    5400 6250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
