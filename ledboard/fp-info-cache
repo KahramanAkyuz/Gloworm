@@ -1,4 +1,4 @@
-19018012181385622
+19038929465366439
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46948,6 +46948,83 @@ connector Wuerth WR-WTB vertical
 0
 10
 10
+Connectors_WAGO
+WAGO_734_2pin_Straight_RuggedPads
+WAGO, Serie 734, Socket, Stiftleiste, 2 polig, 2 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 2 polig, 2 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+0
+2
+2
+Connectors_WAGO
+WAGO_734_3pin_Straight
+WAGO, Serie 734, Socket, Stiftleiste, 3 polig, 3 pin, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 3 polig, 3 pin, straight, gerade, Date 05Jul2010,
+0
+3
+3
+Connectors_WAGO
+WAGO_734_3pin_Straight_RuggedPads
+WAGO, Serie 734, Socket, Stiftleiste, 3 polig, 3 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 3 polig, 3 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+0
+3
+3
+Connectors_WAGO
+WAGO_734_4pin_Straight
+WAGO, Serie 734, Socket, Stiftleiste, 4 polig, 4 pin, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 4 polig, 4 pin, straight, gerade, Date 05Jul2010,
+0
+4
+4
+Connectors_WAGO
+WAGO_734_4pin_Straight_RuggedPads
+WAGO, Serie 734, Socket, Stiftleiste, 4 polig, 4 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 4 polig, 4 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+0
+4
+4
+Connectors_WAGO
+WAGO_734_5pin_Straight
+WAGO, Serie 734, Socket, Stiftleiste, 5 polig, 5 pin, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 5 polig, 5 pin, straight, gerade, Date 05Jul2010,
+0
+5
+5
+Connectors_WAGO
+WAGO_734_5pin_Straight_RuggedPads
+WAGO, Serie 734, Socket, Stiftleiste, 5 polig, 5 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 5 polig, 5 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+0
+5
+5
+Connectors_WAGO
+WAGO_734_6pin_Straight
+WAGO, Serie 734, Socket, Stiftleiste, 6 polig, 6 pin, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 6 polig, 6 pin, straight, gerade, Date 05Jul2010,
+0
+6
+6
+Connectors_WAGO
+WAGO_734_6pin_Straight_RuggedPads
+WAGO, Serie 734, Socket, Stiftleiste, 6 polig, 6 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 6 polig, 6 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+0
+6
+6
+Connectors_WAGO
+WAGO_734_12Pin_Straight
+WAGO, Serie 734, Socket, Stiftleiste, 12 polig, 12 pin, straight, gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 12 polig, 12 pin, straight, gerade, Date 05Jul2010,
+0
+12
+12
+Connectors_WAGO
+WAGO_734_12Pin_Straight_RuggedPads
+WAGO, Serie 734, Socket, Stiftleiste, 12 polig, 12 pin, rugged Pads, straight,  gerade, Date 05Jul2010,
+WAGO, Serie 734, Socket, Stiftleiste, 12 polig, 12 pin, rugged Pads, straight, gerade, Date 05Jul2010,
+0
+12
+12
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -82963,6 +83040,13 @@ varistor SIOV
 0
 2
 2
+footprints
+1824420000
+
+
+0
+4
+4
 ledboard
 LED_1W_3W_R8
 https://www.gme.cz/data/attachments/dsh.518-234.1.pdf
@@ -82991,3 +83075,10 @@ TSOT-23-5
 0
 5
 5
+wago
+233-202
+<b>WAGO Cage Clamp</b>
+
+0
+4
+4
